@@ -1,0 +1,26 @@
+body, html {
+  margin:0; padding:0; overflow:hidden;
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+#passwordOverlay {
+  position:absolute; top:0; left:0; right:0; bottom:0;
+  display:flex; justify-content:center; align-items:center;
+  background:rgba(0,0,0,0.95); z-index:100; flex-direction:column;
+}
+
+#pwdInput {
+  padding:15px; font-size:18px; margin-bottom:15px; border:none; border-radius:5px;
+}
+
+#canvasContainer {
+  width:100vw; height:100vh;
+}
+
+#happyText {
+  position:absolute; top:40%; left:50%;
+  transform:translate(-50%, -50%);
+  font-size:5vw; font-weight:bold; color:#ff3366;
+  opacity:0; text-shadow:0 0 20px #ff3366;
+}
